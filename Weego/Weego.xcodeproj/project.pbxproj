@@ -1,0 +1,964 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A3D42E91C895A5A00BAD0EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D42E81C895A5A00BAD0EA /* main.m */; };
+		0A3D42EC1C895A5A00BAD0EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D42EB1C895A5A00BAD0EA /* AppDelegate.m */; };
+		0A3D42EF1C895A5A00BAD0EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D42EE1C895A5A00BAD0EA /* ViewController.m */; };
+		0A3D42F21C895A5A00BAD0EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3D42F01C895A5A00BAD0EA /* Main.storyboard */; };
+		0A3D42F41C895A5A00BAD0EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3D42F31C895A5A00BAD0EA /* Assets.xcassets */; };
+		0A3D42F71C895A5A00BAD0EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3D42F51C895A5A00BAD0EA /* LaunchScreen.storyboard */; };
+		0A3D43021C895A5A00BAD0EA /* WeegoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D43011C895A5A00BAD0EA /* WeegoTests.m */; };
+		0A3D430D1C895A5A00BAD0EA /* WeegoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D430C1C895A5A00BAD0EA /* WeegoUITests.m */; };
+		0AFAF77D1C8A813800EAD4FE /* WGNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFAF77C1C8A813800EAD4FE /* WGNavigationViewController.m */; };
+		0AFAF7801C8A81C900EAD4FE /* WGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFAF77F1C8A81C900EAD4FE /* WGBaseViewController.m */; };
+		0AFAF7831C8A81F100EAD4FE /* WGCurrentCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFAF7821C8A81F100EAD4FE /* WGCurrentCityViewController.m */; };
+		0AFAF7861C8A820F00EAD4FE /* WGLeftDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFAF7851C8A820F00EAD4FE /* WGLeftDrawerViewController.m */; };
+		0AFAF7891C8A87FE00EAD4FE /* WGLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFAF7881C8A87FE00EAD4FE /* WGLoginViewController.m */; };
+		0AFAF7911C8A927400EAD4FE /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFAF7901C8A927400EAD4FE /* UINavigationController+FDFullscreenPopGesture.m */; };
+		0AFAF7A01C8ABC8100EAD4FE /* UIDevice+Res.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFAF79F1C8ABC8100EAD4FE /* UIDevice+Res.m */; };
+		0AFAF7A31C8ABCAA00EAD4FE /* UIScrollView+WGPopGesConflict.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFAF7A21C8ABCAA00EAD4FE /* UIScrollView+WGPopGesConflict.m */; };
+		B9422EDC4CE70F005E335B3F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3064BA472D1C63E30CF896D2 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A3D42FE1C895A5A00BAD0EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A3D42DC1C895A5A00BAD0EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A3D42E31C895A5A00BAD0EA;
+			remoteInfo = Weego;
+		};
+		0A3D43091C895A5A00BAD0EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A3D42DC1C895A5A00BAD0EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A3D42E31C895A5A00BAD0EA;
+			remoteInfo = Weego;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A3D42E41C895A5A00BAD0EA /* Weego.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weego.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3D42E81C895A5A00BAD0EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A3D42EA1C895A5A00BAD0EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A3D42EB1C895A5A00BAD0EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A3D42ED1C895A5A00BAD0EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A3D42EE1C895A5A00BAD0EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A3D42F11C895A5A00BAD0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A3D42F31C895A5A00BAD0EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A3D42F61C895A5A00BAD0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A3D42F81C895A5A00BAD0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A3D42FD1C895A5A00BAD0EA /* WeegoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeegoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3D43011C895A5A00BAD0EA /* WeegoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeegoTests.m; sourceTree = "<group>"; };
+		0A3D43031C895A5A00BAD0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A3D43081C895A5A00BAD0EA /* WeegoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeegoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3D430C1C895A5A00BAD0EA /* WeegoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeegoUITests.m; sourceTree = "<group>"; };
+		0A3D430E1C895A5A00BAD0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AFAF77B1C8A813800EAD4FE /* WGNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGNavigationViewController.h; sourceTree = "<group>"; };
+		0AFAF77C1C8A813800EAD4FE /* WGNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGNavigationViewController.m; sourceTree = "<group>"; };
+		0AFAF77E1C8A81C900EAD4FE /* WGBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGBaseViewController.h; sourceTree = "<group>"; };
+		0AFAF77F1C8A81C900EAD4FE /* WGBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGBaseViewController.m; sourceTree = "<group>"; };
+		0AFAF7811C8A81F100EAD4FE /* WGCurrentCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCurrentCityViewController.h; sourceTree = "<group>"; };
+		0AFAF7821C8A81F100EAD4FE /* WGCurrentCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCurrentCityViewController.m; sourceTree = "<group>"; };
+		0AFAF7841C8A820F00EAD4FE /* WGLeftDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLeftDrawerViewController.h; sourceTree = "<group>"; };
+		0AFAF7851C8A820F00EAD4FE /* WGLeftDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLeftDrawerViewController.m; sourceTree = "<group>"; };
+		0AFAF7871C8A87FE00EAD4FE /* WGLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLoginViewController.h; sourceTree = "<group>"; };
+		0AFAF7881C8A87FE00EAD4FE /* WGLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLoginViewController.m; sourceTree = "<group>"; };
+		0AFAF78F1C8A927400EAD4FE /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		0AFAF7901C8A927400EAD4FE /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		0AFAF7921C8A93B700EAD4FE /* Weego-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Weego-Prefix.pch"; sourceTree = "<group>"; };
+		0AFAF7931C8AA72E00EAD4FE /* macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macro.h; sourceTree = "<group>"; };
+		0AFAF79E1C8ABC8100EAD4FE /* UIDevice+Res.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Res.h"; sourceTree = "<group>"; };
+		0AFAF79F1C8ABC8100EAD4FE /* UIDevice+Res.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Res.m"; sourceTree = "<group>"; };
+		0AFAF7A11C8ABCAA00EAD4FE /* UIScrollView+WGPopGesConflict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+WGPopGesConflict.h"; sourceTree = "<group>"; };
+		0AFAF7A21C8ABCAA00EAD4FE /* UIScrollView+WGPopGesConflict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+WGPopGesConflict.m"; sourceTree = "<group>"; };
+		2651B4ADB53F6D5E6A055CA0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3064BA472D1C63E30CF896D2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6C9ADA342028262568D3653 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A3D42E11C895A5A00BAD0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9422EDC4CE70F005E335B3F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3D42FA1C895A5A00BAD0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3D43051C895A5A00BAD0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0986C94EC2116DF522C3DB53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6C9ADA342028262568D3653 /* Pods.debug.xcconfig */,
+				2651B4ADB53F6D5E6A055CA0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0A3D42DB1C895A5A00BAD0EA = {
+			isa = PBXGroup;
+			children = (
+				0A3D42E61C895A5A00BAD0EA /* Weego */,
+				0A3D43001C895A5A00BAD0EA /* WeegoTests */,
+				0A3D430B1C895A5A00BAD0EA /* WeegoUITests */,
+				0A3D42E51C895A5A00BAD0EA /* Products */,
+				0986C94EC2116DF522C3DB53 /* Pods */,
+				25112C3B1BBAE2786320875B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A3D42E51C895A5A00BAD0EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A3D42E41C895A5A00BAD0EA /* Weego.app */,
+				0A3D42FD1C895A5A00BAD0EA /* WeegoTests.xctest */,
+				0A3D43081C895A5A00BAD0EA /* WeegoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A3D42E61C895A5A00BAD0EA /* Weego */ = {
+			isa = PBXGroup;
+			children = (
+				0A3D431A1C895BEF00BAD0EA /* Classes */,
+				0A3D42EA1C895A5A00BAD0EA /* AppDelegate.h */,
+				0A3D42EB1C895A5A00BAD0EA /* AppDelegate.m */,
+				0A3D42ED1C895A5A00BAD0EA /* ViewController.h */,
+				0A3D42EE1C895A5A00BAD0EA /* ViewController.m */,
+				0A3D42F01C895A5A00BAD0EA /* Main.storyboard */,
+				0A3D42F31C895A5A00BAD0EA /* Assets.xcassets */,
+				0A3D42F51C895A5A00BAD0EA /* LaunchScreen.storyboard */,
+				0A3D42F81C895A5A00BAD0EA /* Info.plist */,
+				0AFAF7921C8A93B700EAD4FE /* Weego-Prefix.pch */,
+				0A3D42E71C895A5A00BAD0EA /* Supporting Files */,
+			);
+			path = Weego;
+			sourceTree = "<group>";
+		};
+		0A3D42E71C895A5A00BAD0EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A3D42E81C895A5A00BAD0EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A3D43001C895A5A00BAD0EA /* WeegoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A3D43011C895A5A00BAD0EA /* WeegoTests.m */,
+				0A3D43031C895A5A00BAD0EA /* Info.plist */,
+			);
+			path = WeegoTests;
+			sourceTree = "<group>";
+		};
+		0A3D430B1C895A5A00BAD0EA /* WeegoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A3D430C1C895A5A00BAD0EA /* WeegoUITests.m */,
+				0A3D430E1C895A5A00BAD0EA /* Info.plist */,
+			);
+			path = WeegoUITests;
+			sourceTree = "<group>";
+		};
+		0A3D431A1C895BEF00BAD0EA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0A3D431B1C895BEF00BAD0EA /* controllers */,
+				0A3D43351C895BEF00BAD0EA /* Expand */,
+				0A3D433C1C895BEF00BAD0EA /* Resource */,
+				0A3D433D1C895BEF00BAD0EA /* Vender */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0A3D431B1C895BEF00BAD0EA /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A3D431C1C895BEF00BAD0EA /* CurrentCity */,
+				0A3D43211C895BEF00BAD0EA /* Discover */,
+				0A3D43261C895BEF00BAD0EA /* MyPlan */,
+				0A3D43301C895BEF00BAD0EA /* Setting */,
+				0A3D432B1C895BEF00BAD0EA /* Other */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		0A3D431C1C895BEF00BAD0EA /* CurrentCity */ = {
+			isa = PBXGroup;
+			children = (
+				0A3D431D1C895BEF00BAD0EA /* Controller */,
+				0A3D431E1C895BEF00BAD0EA /* Model */,
+				0A3D431F1C895BEF00BAD0EA /* Other */,
+				0A3D43201C895BEF00BAD0EA /* View */,
+			);
+			path = CurrentCity;
+			sourceTree = "<group>";
+		};
+		0A3D431D1C895BEF00BAD0EA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0AFAF7811C8A81F100EAD4FE /* WGCurrentCityViewController.h */,
+				0AFAF7821C8A81F100EAD4FE /* WGCurrentCityViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A3D431E1C895BEF00BAD0EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A3D431F1C895BEF00BAD0EA /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0A3D43201C895BEF00BAD0EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A3D43211C895BEF00BAD0EA /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				0A3D43221C895BEF00BAD0EA /* Controller */,
+				0A3D43231C895BEF00BAD0EA /* Model */,
+				0A3D43241C895BEF00BAD0EA /* Other */,
+				0A3D43251C895BEF00BAD0EA /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		0A3D43221C895BEF00BAD0EA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A3D43231C895BEF00BAD0EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A3D43241C895BEF00BAD0EA /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0A3D43251C895BEF00BAD0EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A3D43261C895BEF00BAD0EA /* MyPlan */ = {
+			isa = PBXGroup;
+			children = (
+				0A3D43271C895BEF00BAD0EA /* Controller */,
+				0A3D43281C895BEF00BAD0EA /* Model */,
+				0A3D43291C895BEF00BAD0EA /* Other */,
+				0A3D432A1C895BEF00BAD0EA /* View */,
+			);
+			path = MyPlan;
+			sourceTree = "<group>";
+		};
+		0A3D43271C895BEF00BAD0EA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A3D43281C895BEF00BAD0EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A3D43291C895BEF00BAD0EA /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0A3D432A1C895BEF00BAD0EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A3D432B1C895BEF00BAD0EA /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0A3D432C1C895BEF00BAD0EA /* Login */,
+				0A3D432D1C895BEF00BAD0EA /* Navigation */,
+				0A3D432E1C895BEF00BAD0EA /* Other */,
+				0A3D432F1C895BEF00BAD0EA /* Public */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0A3D432C1C895BEF00BAD0EA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0AFAF7871C8A87FE00EAD4FE /* WGLoginViewController.h */,
+				0AFAF7881C8A87FE00EAD4FE /* WGLoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0A3D432D1C895BEF00BAD0EA /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				0AFAF77B1C8A813800EAD4FE /* WGNavigationViewController.h */,
+				0AFAF77C1C8A813800EAD4FE /* WGNavigationViewController.m */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		0A3D432E1C895BEF00BAD0EA /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0AFAF7841C8A820F00EAD4FE /* WGLeftDrawerViewController.h */,
+				0AFAF7851C8A820F00EAD4FE /* WGLeftDrawerViewController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0A3D432F1C895BEF00BAD0EA /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				0AFAF77E1C8A81C900EAD4FE /* WGBaseViewController.h */,
+				0AFAF77F1C8A81C900EAD4FE /* WGBaseViewController.m */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		0A3D43301C895BEF00BAD0EA /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				0A3D43311C895BEF00BAD0EA /* Controller */,
+				0A3D43321C895BEF00BAD0EA /* Model */,
+				0A3D43331C895BEF00BAD0EA /* Other */,
+				0A3D43341C895BEF00BAD0EA /* View */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		0A3D43311C895BEF00BAD0EA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A3D43321C895BEF00BAD0EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A3D43331C895BEF00BAD0EA /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0A3D43341C895BEF00BAD0EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A3D43351C895BEF00BAD0EA /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				0A3D43361C895BEF00BAD0EA /* Category */,
+				0A3D43371C895BEF00BAD0EA /* Const */,
+				0A3D43381C895BEF00BAD0EA /* DataBase */,
+				0A3D43391C895BEF00BAD0EA /* Macros */,
+				0A3D433A1C895BEF00BAD0EA /* Network */,
+				0A3D433B1C895BEF00BAD0EA /* Tool */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		0A3D43361C895BEF00BAD0EA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0AFAF79D1C8ABC8100EAD4FE /* UIdevice+Res */,
+				0AFAF78E1C8A927400EAD4FE /* FDFullscreenPopGesture */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0A3D43371C895BEF00BAD0EA /* Const */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		0A3D43381C895BEF00BAD0EA /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		0A3D43391C895BEF00BAD0EA /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				0AFAF7931C8AA72E00EAD4FE /* macro.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		0A3D433A1C895BEF00BAD0EA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0A3D433B1C895BEF00BAD0EA /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		0A3D433C1C895BEF00BAD0EA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0A3D433D1C895BEF00BAD0EA /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		0AFAF78E1C8A927400EAD4FE /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				0AFAF78F1C8A927400EAD4FE /* UINavigationController+FDFullscreenPopGesture.h */,
+				0AFAF7901C8A927400EAD4FE /* UINavigationController+FDFullscreenPopGesture.m */,
+				0AFAF7A11C8ABCAA00EAD4FE /* UIScrollView+WGPopGesConflict.h */,
+				0AFAF7A21C8ABCAA00EAD4FE /* UIScrollView+WGPopGesConflict.m */,
+			);
+			path = FDFullscreenPopGesture;
+			sourceTree = "<group>";
+		};
+		0AFAF79D1C8ABC8100EAD4FE /* UIdevice+Res */ = {
+			isa = PBXGroup;
+			children = (
+				0AFAF79E1C8ABC8100EAD4FE /* UIDevice+Res.h */,
+				0AFAF79F1C8ABC8100EAD4FE /* UIDevice+Res.m */,
+			);
+			path = "UIdevice+Res";
+			sourceTree = "<group>";
+		};
+		25112C3B1BBAE2786320875B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3064BA472D1C63E30CF896D2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A3D42E31C895A5A00BAD0EA /* Weego */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A3D43111C895A5A00BAD0EA /* Build configuration list for PBXNativeTarget "Weego" */;
+			buildPhases = (
+				0F2DAA76F93C0263081C5EA6 /* Check Pods Manifest.lock */,
+				0A3D42E01C895A5A00BAD0EA /* Sources */,
+				0A3D42E11C895A5A00BAD0EA /* Frameworks */,
+				0A3D42E21C895A5A00BAD0EA /* Resources */,
+				2B0F8981A7B4B48710465B4B /* Embed Pods Frameworks */,
+				56E01B595DAAD3826C19AED7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weego;
+			productName = Weego;
+			productReference = 0A3D42E41C895A5A00BAD0EA /* Weego.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A3D42FC1C895A5A00BAD0EA /* WeegoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A3D43141C895A5A00BAD0EA /* Build configuration list for PBXNativeTarget "WeegoTests" */;
+			buildPhases = (
+				0A3D42F91C895A5A00BAD0EA /* Sources */,
+				0A3D42FA1C895A5A00BAD0EA /* Frameworks */,
+				0A3D42FB1C895A5A00BAD0EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A3D42FF1C895A5A00BAD0EA /* PBXTargetDependency */,
+			);
+			name = WeegoTests;
+			productName = WeegoTests;
+			productReference = 0A3D42FD1C895A5A00BAD0EA /* WeegoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A3D43071C895A5A00BAD0EA /* WeegoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A3D43171C895A5A00BAD0EA /* Build configuration list for PBXNativeTarget "WeegoUITests" */;
+			buildPhases = (
+				0A3D43041C895A5A00BAD0EA /* Sources */,
+				0A3D43051C895A5A00BAD0EA /* Frameworks */,
+				0A3D43061C895A5A00BAD0EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A3D430A1C895A5A00BAD0EA /* PBXTargetDependency */,
+			);
+			name = WeegoUITests;
+			productName = WeegoUITests;
+			productReference = 0A3D43081C895A5A00BAD0EA /* WeegoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A3D42DC1C895A5A00BAD0EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WG;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Weego;
+				TargetAttributes = {
+					0A3D42E31C895A5A00BAD0EA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					0A3D42FC1C895A5A00BAD0EA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0A3D42E31C895A5A00BAD0EA;
+					};
+					0A3D43071C895A5A00BAD0EA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0A3D42E31C895A5A00BAD0EA;
+					};
+				};
+			};
+			buildConfigurationList = 0A3D42DF1C895A5A00BAD0EA /* Build configuration list for PBXProject "Weego" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A3D42DB1C895A5A00BAD0EA;
+			productRefGroup = 0A3D42E51C895A5A00BAD0EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A3D42E31C895A5A00BAD0EA /* Weego */,
+				0A3D42FC1C895A5A00BAD0EA /* WeegoTests */,
+				0A3D43071C895A5A00BAD0EA /* WeegoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A3D42E21C895A5A00BAD0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3D42F71C895A5A00BAD0EA /* LaunchScreen.storyboard in Resources */,
+				0A3D42F41C895A5A00BAD0EA /* Assets.xcassets in Resources */,
+				0A3D42F21C895A5A00BAD0EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3D42FB1C895A5A00BAD0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3D43061C895A5A00BAD0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F2DAA76F93C0263081C5EA6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2B0F8981A7B4B48710465B4B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56E01B595DAAD3826C19AED7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A3D42E01C895A5A00BAD0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFAF7891C8A87FE00EAD4FE /* WGLoginViewController.m in Sources */,
+				0AFAF7861C8A820F00EAD4FE /* WGLeftDrawerViewController.m in Sources */,
+				0AFAF77D1C8A813800EAD4FE /* WGNavigationViewController.m in Sources */,
+				0AFAF7911C8A927400EAD4FE /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				0A3D42EF1C895A5A00BAD0EA /* ViewController.m in Sources */,
+				0AFAF7801C8A81C900EAD4FE /* WGBaseViewController.m in Sources */,
+				0AFAF7831C8A81F100EAD4FE /* WGCurrentCityViewController.m in Sources */,
+				0AFAF7A01C8ABC8100EAD4FE /* UIDevice+Res.m in Sources */,
+				0AFAF7A31C8ABCAA00EAD4FE /* UIScrollView+WGPopGesConflict.m in Sources */,
+				0A3D42EC1C895A5A00BAD0EA /* AppDelegate.m in Sources */,
+				0A3D42E91C895A5A00BAD0EA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3D42F91C895A5A00BAD0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3D43021C895A5A00BAD0EA /* WeegoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3D43041C895A5A00BAD0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3D430D1C895A5A00BAD0EA /* WeegoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A3D42FF1C895A5A00BAD0EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A3D42E31C895A5A00BAD0EA /* Weego */;
+			targetProxy = 0A3D42FE1C895A5A00BAD0EA /* PBXContainerItemProxy */;
+		};
+		0A3D430A1C895A5A00BAD0EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A3D42E31C895A5A00BAD0EA /* Weego */;
+			targetProxy = 0A3D43091C895A5A00BAD0EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A3D42F01C895A5A00BAD0EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A3D42F11C895A5A00BAD0EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A3D42F51C895A5A00BAD0EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A3D42F61C895A5A00BAD0EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A3D430F1C895A5A00BAD0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A3D43101C895A5A00BAD0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A3D43121C895A5A00BAD0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6C9ADA342028262568D3653 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Weego/Weego-Prefix.pch";
+				INFOPLIST_FILE = Weego/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = P.Weego;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A3D43131C895A5A00BAD0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2651B4ADB53F6D5E6A055CA0 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Weego/Weego-Prefix.pch";
+				INFOPLIST_FILE = Weego/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = P.Weego;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0A3D43151C895A5A00BAD0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeegoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = P.WeegoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weego.app/Weego";
+			};
+			name = Debug;
+		};
+		0A3D43161C895A5A00BAD0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeegoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = P.WeegoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weego.app/Weego";
+			};
+			name = Release;
+		};
+		0A3D43181C895A5A00BAD0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WeegoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = P.WeegoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Weego;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0A3D43191C895A5A00BAD0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WeegoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = P.WeegoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Weego;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A3D42DF1C895A5A00BAD0EA /* Build configuration list for PBXProject "Weego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3D430F1C895A5A00BAD0EA /* Debug */,
+				0A3D43101C895A5A00BAD0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A3D43111C895A5A00BAD0EA /* Build configuration list for PBXNativeTarget "Weego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3D43121C895A5A00BAD0EA /* Debug */,
+				0A3D43131C895A5A00BAD0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A3D43141C895A5A00BAD0EA /* Build configuration list for PBXNativeTarget "WeegoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3D43151C895A5A00BAD0EA /* Debug */,
+				0A3D43161C895A5A00BAD0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A3D43171C895A5A00BAD0EA /* Build configuration list for PBXNativeTarget "WeegoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3D43181C895A5A00BAD0EA /* Debug */,
+				0A3D43191C895A5A00BAD0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A3D42DC1C895A5A00BAD0EA /* Project object */;
+}
